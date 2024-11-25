@@ -1,0 +1,90 @@
+body {
+    font-family: cursive, "Kaushan Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #391811;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #391811;
+  }
+  
+.topnav {
+  display: flex;
+  justify-content: space-between; /* Aligns items to the sides */
+  align-items: center; /* Vertically centers items */
+  height: 65px;
+  overflow: hidden;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  background-color: #391811;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {
+    position: relative;
+
+  }
+}
+
+.invite-logo {
+  padding: 35px;
+  height: 56px;
+}
+
+
+.location-link {
+  display: flex;
+  overflow: hidden;
+  justify-content: flex-start;
+
+  align-items: center;
+  margin-right: 20px; 
+  padding: 10px 15px;
+  color: #cda932;
+  /* background-color: #1e2443; */
+  border: 1px solid #cda932;
+  text-decoration: none;
+  border-radius: 20px;
+  font-size: 16px;
+  cursor: pointer;
+  /* font-family: "Kaushan Script", cursive; */
+  font-weight: 400;
+  font-style: normal;
+  font-size: 24px;
+  text-align: center;
+}
+
+.location-link:hover {
+  background-color: #cda932;
+  color: #391811;
+  border: 1px solid #391811;
+
+}
+
+
+.invite-pages{
+  display: flex;
+  justify-content:center;
+  height: 100%;
+  width: 100%;
+}
+
+img{
+  padding: 0;
+  margin: 0;
+  height: 900px;
+}
+
+div{
+  padding: 0;
+  margin: 0;
+}
+
+.kaushan-script-regular {
+    font-family: "Kaushan Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
